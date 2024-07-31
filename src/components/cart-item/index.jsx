@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 
 // Styles
 import * as Styles from "./styles";
-import { decreaseProductQuantity, increaseProductQuantity, removeProductFromCart } from "../../redux/cart/actions";
+import { decreaseProductQuantity, increaseProductQuantity, removeProductFromCart } from "../../redux/cart/slice";
 
 const CartItem = ({ product }) => {
   const dispatch = useDispatch()
